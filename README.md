@@ -2,11 +2,9 @@
 
 ## Self-Supervised Human Mesh Recovery from Partial Point Cloud via a Self-Improving Loop (ACM MM 2025)
 
-```markdown
 <p align="center">
   <img src="./assets/sshmr-overview.png" alt="sshmr-overview" width="60%">
 </p>
-```
 
 </div>
 
