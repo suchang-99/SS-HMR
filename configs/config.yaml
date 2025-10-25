@@ -1,0 +1,23 @@
+core:
+    is_debug: True
+    device: cuda:0
+
+
+
+dataloader:
+  train:
+    batch_size: 48
+    num_workers: 0
+    shuffle: True
+  test:
+    batch_size: 128 
+    num_workers: 0
+    shuffle: False
+  aligned_star_kp_index: [ 16, 18, 20, 1, 4, 7, 17, 19, 21, 2, 5, 8, 15 ]
+  aligned_waymo_kp_index: [ 5, 6, 7, 8, 9, 10, 13, 14, 15, 16, 17, 18, 20 ]
+  flip_aligned_star_kp_index: [ 17, 19, 21, 2, 5, 8, 16, 18, 20, 1, 4, 7, 15 ]
+  flip_star_kp_index: [ 0, 2, 1, 3, 5, 4, 6, 8, 7, 9, 11, 10, 12, 14, 13, 15, 17, 16, 19, 18, 21, 20, 23, 22 ]
+
+
+defaults:
+    - dataset: sloper4d

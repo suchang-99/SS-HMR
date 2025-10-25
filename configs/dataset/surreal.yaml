@@ -1,0 +1,20 @@
+_target_: dataloader.Surreal_DataLoader.SurrealDepth
+opt:
+  isTrain: True
+  use_generated_data_file: True
+  noise_mean: 0.005
+  noise_var: 0.005
+  opt_gap: 20
+  surreal_use_male: False
+  surreal_use_female: False
+  surreal_train_sequence_number: 3000
+  surreal_train_sequence_sample_number: 5
+  surreal_test_sequence_number: 100
+  surreal_test_sequence_sample_number: 100
+  surreal_dataset_path: '../Point_Pose_AutoEncoder/data/surreal/cmu/'
+  surreal_save_path: '../Point_Pose_AutoEncoder/data/surreal/processed/'
+  number_points_sample: 1024
+  data_dir_replace: '../Point_Pose_AutoEncoder/data/'
+  hasmesh: True
+
+dataname: surreal

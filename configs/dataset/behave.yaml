@@ -1,0 +1,13 @@
+_target_: dataloader
+opt:
+  isTrain: True
+  use_generated_data_file: True
+  noise_mean: 0.005
+  noise_var: 0.005
+  opt_gap: 20
+  number_points_sample: 1024
+  data_dir_replace: '../Point_Pose_AutoEncoder/data/'
+  hasmesh: True
+  pc_num: 1024
+
+dataname: behave
