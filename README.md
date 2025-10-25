@@ -1,11 +1,10 @@
-### <div align="center">
-
-## Self-Supervised Human Mesh Recovery from Partial Point Cloud via a Self-Improving Loop (ACM MM 2025)
+<p align="center">
+  <h1 align="center">Self-Supervised Human Mesh Recovery from Partial Point Cloud via a Self-Improving Loop</h1>
+  <h3 align="center"><a href="https://dl.acm.org/doi/10.1145/3746027.3755570">Paper</a> </h3></p>
 
 <p align="center">
   <img src="./assets/sshmr-overview.png" alt="sshmr-overview" width="60%">
 </p>
-
 </div>
 
 ## 🔥 Highlights
@@ -57,8 +56,18 @@ python train.py dataset=sloper4d
 - [ ] Streamline external-data preprocessing.
 
 ## Citation
-```
 
+If you find this method and/or code useful, please consider citing
+
+```
+@inproceedings{su2025sshmr,
+author = {Su, Chang and Jin, Beihong and Zhang, Fusang and Li, Siheng and Wang, Zhi},
+title = {Self-Supervised Human Mesh Recovery from Partial Point Cloud via a Self-Improving Loop},
+year = {2025},
+booktitle = {Proceedings of the 33rd ACM International Conference on Multimedia},
+pages = {4738–4747},
+numpages = {10},
+}
 ```
 
 ## Acknowledgements
